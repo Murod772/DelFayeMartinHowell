@@ -1,0 +1,128 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+  <meta charset="UTF-8">
+	<title>Maryland State Delegate Faye Martin Howell of District 24 County Prince George's County  A Life-Long Resident of District 24 With a Proven Record of Service and Leadership!</title>
+	
+    <meta name="description" content="State Delegate Faye Martin Howell of District 24 County Prince George's A Life-Long Resident of District 24 With a Proven Record of Service and Leadership!" />
+    <meta name="keywords" content="Maryland State Delegate, Faye Martin Howell, Faye Howell, District 24 County Prince George's County, Prince George's County, Education, Education, Prince George's County Public Schools System, Prince Georges Central Committee, Democrat,Lawmaker, Judiciary Committee, Maryland General Assembly, Prince George's County Members, Prince George's County House Delegation, Maryland State Legislative District 24, Maryland, Maryland State Senate Joanne Benson, House of Delegates Faye Martin Howell, House of Delegates Andrea Fletcher Harrison, Maryland House of Delegates Jazz M. Lewis" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/logo/favicon225x225.png">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/animate.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/swiper.min.css">
+	<link rel="stylesheet" href="assets/css/lightcase.css">
+	<link rel="stylesheet" href="assets/css/styleAIMDFMHb.css">
+
+    <style>
+        .fmh-primary-color{color:#33adff;}
+        .fmh-second-color{color:#9d2236;}
+        .fmh-gray-color{color:#808080;}
+        .fmh-black-color{color:#000000;}
+        .fmh-inner-title{color:#fff;}
+    </style>
+
+
+</head>
+<body class="body-padding">
+    <form id="form2" runat="server">
+  
+	<!-- Start Header -->
+	<header class="header">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg p-lg-0">
+				<a class="navbar-brand logo" href="Default.aspx"><img src="assets/images/logo/fmh-logo1.png" alt="Maryland State Delegate Faye Martin Howell logo"></a>
+				<a class="navbar-brand logo" href="Default.aspx"><img src="assets/images/logo/fmh-logo5w.png" alt="Maryland State Delegate Faye Martin Howell logo"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="fa fa-bars"></span>
+				</button>
+			  
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="nav navbar-nav ml-auto">
+						<li ><a href="/Vision.aspx">Vision</a></li>
+						<li>
+							<a href="/Biography.aspx">Biography</a>
+						</li>
+						<li><a href="/Accomplishments.aspx">Legislative Accomplishments</a></li>	
+						<li><a href="/Endorsements.aspx">Endorsements</a></li>
+
+                             <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown"
+             aria-haspopup="true" aria-expanded="false"> Latest News </a>
+          <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdownMenuLink-4">
+              <a class="dropdown-item"  href="https://www.marylandmatters.org/newsletter/" target="_blank">Maryland Matters</a>
+              <a class="dropdown-item"  href="#" target="_blank">Scholarships</a>
+          </div>
+        </li>
+
+						<li><a href="/Contact.aspx">Contact</a></li>	
+					</ul>
+					 
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!-- End Header -->
+         <asp:ContentPlaceHolder id="insidebannerContent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+
+	<!-- start footer section -->
+	<footer id="information" class="footer-section"> 
+        <div class="footer-top section-padding-10"  style="padding-bottom:20px;">
+            <div class="container">
+                <div>
+                    <div class="row justify-content-center2">
+                        <div class="col-lg-6 col-sm-6">
+                            <h5 class="mt-5" style="color:white;">Contact Information</h5>
+                            <p>
+                                <strong class="fmh-second-color">Website:</strong>&nbsp; <span style="color:white;"> www.vote4FayeMartinHowell.com</span> <br />
+                                <strong class="fmh-second-color">Phone:</strong> &nbsp; <span style="color:white;">240-281-9833</span><br />
+                                <strong class="fmh-second-color">Email</strong>&nbsp; <span style="color:white;">info@vote4FayeMartinHowell.com</span>
+
+                            </p>
+                        </div>
+
+                        <div class="col-lg-6 col-sm-6">
+                             
+                                <h5 class="mt-5" style="color:white;">Voting Information</h5>
+                                
+                                <ul style="color:white;font-weight:bold;">
+                                    <li>Election Day, June 28, 2022</li>
+                                    <li>Early Voting: June 16, 2022 – June 23, 2022</li>
+                                </ul>
+                             
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+		<div class="footer-bottom" style="text-align:center;">
+			<p>&copy; 2022 <a href="Default.aspx">By authority of Friends of Faye Martin Howell<br />
+                         Dollye Howell Simmons, Treasurer<br />
+                </a>Powered By <a href="https://aimdgroup.com" target="_blank">AIMD Group</a>
+            </p>
+		</div>
+	</footer>
+	<!-- end footer section -->
+
+
+
+	<script src='assets/js/plugins.js'></script>
+	<script src='assets/js/function.js'></script>
+    </form>
+</body>
+</html>
+
